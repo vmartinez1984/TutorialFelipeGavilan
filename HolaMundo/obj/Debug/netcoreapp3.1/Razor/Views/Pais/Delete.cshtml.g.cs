@@ -27,7 +27,7 @@ using HolaMundo.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"265eed8e085a02e260bfa744f0f1ff8a173ae313", @"/Views/Pais/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6347fbb7baf218229e9b8364d3a4ea17a6caa847", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a4d8155d713b88be50c2283503d1963b7add164", @"/Views/_ViewImports.cshtml")]
     public class Views_Pais_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<HolaMundo.Models.Pais>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "hidden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

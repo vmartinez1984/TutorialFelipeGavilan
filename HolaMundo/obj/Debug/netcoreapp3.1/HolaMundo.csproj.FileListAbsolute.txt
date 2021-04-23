@@ -167,3 +167,4 @@ C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\HolaMundo\obj\Debug\netcor
 C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\HolaMundo\obj\Debug\netcoreapp3.1\Razor\Views\Pais\Details.cshtml.g.cs
 C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\HolaMundo\obj\Debug\netcoreapp3.1\Razor\Views\Pais\Edit.cshtml.g.cs
 C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\HolaMundo\obj\Debug\netcoreapp3.1\Razor\Views\Pais\Index.cshtml.g.cs
+C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\HolaMundo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Paises\Default.cshtml.g.cs

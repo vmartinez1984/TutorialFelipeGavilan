@@ -27,7 +27,7 @@ using HolaMundo.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9a5e419916e250e9176062096330c4e775f01ab6", @"/Views/Pais/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6347fbb7baf218229e9b8364d3a4ea17a6caa847", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a4d8155d713b88be50c2283503d1963b7add164", @"/Views/_ViewImports.cshtml")]
     public class Views_Pais_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<HolaMundo.Models.Pais>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
