@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vmartinez\\source\\repos\\Tutorial FelipeG\\Tutorial01\\Tutorial01.csproj",
+      "projectUniqueName": "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\Tutorial01\\Tutorial01.csproj",
       "projectName": "Tutorial01",
-      "projectPath": "C:\\Users\\vmartinez\\source\\repos\\Tutorial FelipeG\\Tutorial01\\Tutorial01.csproj",
+      "projectPath": "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\Tutorial01\\Tutorial01.csproj",
       "packagesPath": "C:\\Users\\vmartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vmartinez\\source\\repos\\Tutorial FelipeG\\Tutorial01\\obj\\",
+      "outputPath": "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\Tutorial01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",

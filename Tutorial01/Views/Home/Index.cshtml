@@ -2,6 +2,15 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+
+@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment env
+
+<p>@env.EnvironmentName</p>
+
+<environment include="Development">
+    <p>Estamos en desarrollo</p>
+</environment>
+
 <ul>
     @foreach (var pais in Model)
     {

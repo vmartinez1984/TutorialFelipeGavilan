@@ -27,7 +27,7 @@ namespace Tutorial01.Controllers
 
         public IActionResult Index()
         {
-            throw new ApplicationException("Ha ocurrido algo malo");
+            //throw new ApplicationException("Ha ocurrido algo malo");
             List<string> paises;
 
             paises = this.RepositorioPais.ObtenerTodos();
