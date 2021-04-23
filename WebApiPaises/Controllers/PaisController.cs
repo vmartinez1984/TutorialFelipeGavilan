@@ -55,7 +55,7 @@ namespace WebApiPaises.Controllers
         [HttpPost]
         public IActionResult Post(Pais pais)
         {
-            return StatusCode(StatusCodes.Status500InternalServerError, new Exception ("Valio pepino"  ));
+            //return StatusCode(StatusCodes.Status500InternalServerError, new Exception ("Valio pepino"  ));
             try
             {
                 if (ModelState.IsValid)
