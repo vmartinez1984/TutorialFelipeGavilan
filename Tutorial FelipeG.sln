@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial01", "Tutorial01\Tutorial01.csproj", "{BF25DDDA-2EB3-4599-BEC6-E71BCF75D581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\HolaMundo.csproj", "{4F2F1C7A-E5B6-4FD5-B6CE-4EB4C69BD60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolaMundo", "HolaMundo\HolaMundo.csproj", "{4F2F1C7A-E5B6-4FD5-B6CE-4EB4C69BD60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema", "Sistema\Sistema.csproj", "{ADD8CDF7-ACD2-43B6-BC05-EE300674538D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4F2F1C7A-E5B6-4FD5-B6CE-4EB4C69BD60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F2F1C7A-E5B6-4FD5-B6CE-4EB4C69BD60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F2F1C7A-E5B6-4FD5-B6CE-4EB4C69BD60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD8CDF7-ACD2-43B6-BC05-EE300674538D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD8CDF7-ACD2-43B6-BC05-EE300674538D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD8CDF7-ACD2-43B6-BC05-EE300674538D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD8CDF7-ACD2-43B6-BC05-EE300674538D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj": {}
+    "C:\\Users\\vmartinez\\source\\repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj": {
+    "C:\\Users\\vmartinez\\source\\repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj",
+        "projectUniqueName": "C:\\Users\\vmartinez\\source\\repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj",
         "projectName": "HolaMundo",
-        "projectPath": "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj",
+        "projectPath": "C:\\Users\\vmartinez\\source\\repos\\TutorialFelipeGavilan\\HolaMundo\\HolaMundo.csproj",
         "packagesPath": "C:\\Users\\vmartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmartinez\\Source\\Repos\\TutorialFelipeGavilan\\HolaMundo\\obj\\",
+        "outputPath": "C:\\Users\\vmartinez\\source\\repos\\TutorialFelipeGavilan\\HolaMundo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vmartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
