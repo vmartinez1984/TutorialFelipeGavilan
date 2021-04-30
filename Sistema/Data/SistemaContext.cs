@@ -15,5 +15,6 @@ namespace Sistema.Data
         }
 
         public DbSet<Sistema.Models.Categoria> Categoria { get; set; }
+        public DbSet<Sistema.Models.Curso> Curso { get; set; }
     }
 }
