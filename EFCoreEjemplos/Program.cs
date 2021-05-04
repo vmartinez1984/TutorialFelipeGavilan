@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace EFCoreEjemplos
@@ -14,13 +16,13 @@ namespace EFCoreEjemplos
             Console.WriteLine("2021/04/29 22:22");
             Console.WriteLine("Víctor Martínez");
             //Add();
-            GetAll();
+            //GetAll();
             //Update();
             //Update2();
             //using (var dbContext = new ApplicationDbContext())
             //{
             //    Estudiante estudiante;
-                
+
             //    estudiante = new Estudiante
             //    {
             //        Nombre = "Wanabana",
@@ -34,6 +36,20 @@ namespace EFCoreEjemplos
             //    dbContext.Add(estudiante);
             //    dbContext.SaveChanges();
             //}
+            using (var dbContext = new ApplicationDbContext())
+            {
+                Estudiante estudiante;
+                Curso curso;
+                EstudianteCurso estudianteCurso;
+
+                estudiante = dbContext.Estudiante.FirstOrDefault();
+                curso = dbContext.Curso.FirstOrDefault();
+                estudianteCurso = new EstudianteCurso();
+                estudianteCurso.Curso = curso;
+                estudianteCurso.Estudiante = estudiante;
+                dbContext.Add(estudianteCurso);
+                dbContext.SaveChanges();
+            }
 
             Console.WriteLine("Listo");
             Console.ReadLine();
@@ -111,6 +127,7 @@ namespace EFCoreEjemplos
         public int? Edad { get; set; }
         public int? EscuelaId { get; set; }
         public Direccion Direccion { get; set; }
+        public List<EstudianteCurso> ListaDeEstudiantesCursos { get; set; }
     }
 
     class Direccion
@@ -118,5 +135,31 @@ namespace EFCoreEjemplos
         public int Id { get; set; }
         public string Calle { get; set; }
         public int EstudianteId { get; set; }
+    }
+
+    class Curso
+    {
+        public int Id { get; set; }
+
+        [StringLength(100)]
+        public string Nombre { get; set; }
+        public List<EstudianteCurso> ListaDeEstudiantesCursos { get; set; }
+    }
+
+    class EstudianteCurso
+    {        
+        [Key]
+        [Required]
+        public int Id { get; set; }
+
+        [Required]
+        [ForeignKey("Estudiante")]
+        public int EstudianteId { get; set; }
+
+        [Required]
+        [ForeignKey("Curso")]
+        public int CursoId { get; set; }
+        public Estudiante Estudiante { get; set; }
+        public Curso Curso { get; set; }
     }
 }

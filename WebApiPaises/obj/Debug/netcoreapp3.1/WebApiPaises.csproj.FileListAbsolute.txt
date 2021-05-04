@@ -31,3 +31,4 @@ C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\WebApiPaises\bin\Debug\net
 C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\WebApiPaises\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\WebApiPaises\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\vmartinez\Source\Repos\TutorialFelipeGavilan\WebApiPaises\obj\Debug\netcoreapp3.1\WebApiPaises.csproj.CopyComplete
+C:\Users\vmartinez\source\repos\TutorialFelipeGavilan\WebApiPaises\obj\Debug\netcoreapp3.1\WebApiPaises.csprojAssemblyReference.cache
